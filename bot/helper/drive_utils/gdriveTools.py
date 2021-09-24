@@ -187,7 +187,7 @@ class GoogleDriveHelper:
             self.edit_telegraph()
 
         
-        msg = f"<b>Found <code>{all_contents_count}</code> results for <code>{fileName}</code></b>"
+        msg = f"<b>Search Results For</b> <code>{fileName}</code>"
         buttons = button_builder.ButtonMaker()
         buttons.buildbutton("VIEW", f"https://telegra.ph/{self.path[0]}")
 
